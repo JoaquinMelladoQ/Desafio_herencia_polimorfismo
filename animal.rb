@@ -55,27 +55,27 @@ class Insecto < Animal
 end
 
 class Pinguino < Ave
-    include Habilidades::Nadador
-    include Habilidades::Caminante
+    include Habilidades::Nadador,
+    Habilidades::Caminante
     include Alimentacion::Carnivoro
 end
 
 class Paloma < Ave
-    include Habilidades::Volador
-    include Habilidades::Caminante
+    include Habilidades::Volador,
+    Habilidades::Caminante
     include Alimentacion::Carnivoro
 end
 
 class Pato < Ave
-    include Habilidades::Volador
-    include Habilidades::Nadador
-    include Habilidades::Caminante
+    include Habilidades::Volador,
+    Habilidades::Nadador,
+    Habilidades::Caminante
     include Alimentacion::Carnivoro
 end
 
 class Perro < Mamifero
-    include Habilidades::Caminante
-    include Habilidades::Nadador
+    include Habilidades::Caminante, 
+    Habilidades::Nadador
     include Alimentacion::Carnivoro
 end
 
