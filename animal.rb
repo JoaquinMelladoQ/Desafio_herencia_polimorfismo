@@ -61,6 +61,9 @@ class Pinguino < Ave
 end
 
 class Paloma < Ave
+    include Habilidades::Volador
+    include Habilidades::Caminante
+    include Alimentacion::Carnivoro
 end
 
 class Pato < Ave
