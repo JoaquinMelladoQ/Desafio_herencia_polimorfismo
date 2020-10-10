@@ -21,7 +21,7 @@ class Student < Person
     end
 
     def introduce
-        puts ""
+        puts "Hola profesor. Mi nombre es #{ self.first_name } #{ self.last_name }"
     end
 
 end
@@ -29,11 +29,11 @@ end
 class Teacher < Person
 
     def talk
-        puts ""
+        puts "Bienvenidos a la clase de programación con Ruby!"
     end
 
     def introduce
-        puts ""
+        puts "Hola alumnos. Mi nombre es #{ self.first_name } #{ self.last_name }"
     end
 
 end
@@ -41,11 +41,11 @@ end
 class Parent < Person
 
     def talk
-        puts ""
+        puts "Aquí es la reunión de apoderados?"
     end
 
     def introduce
-        puts ""
+        puts "Hola. Soy uno de los apoderados. Mi nombre es #{ self.first_name } #{ self.last_name }"
     end
 
 end
