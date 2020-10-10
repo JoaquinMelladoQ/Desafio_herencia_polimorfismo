@@ -55,6 +55,9 @@ class Insecto < Animal
 end
 
 class Pinguino < Ave
+    include Habilidades::Nadador
+    include Habilidades::Caminante
+    include Alimentacion::Carnivoro
 end
 
 class Paloma < Ave
