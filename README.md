@@ -37,6 +37,8 @@ end
 
 #### Ejercicio 2
 
+Dado el siguiente módulo:
+
 module Habilidades
     module Volador
         def volar
@@ -75,10 +77,9 @@ module Alimentacion
 end
 
 
-#### Ejercicio 3
+#### Requerimientos
 
- + Crear la clase Animal con un atributo nombre . Agregar un método getter para el atributo
-nombre (1 punto)
+ + Crear la clase Animal con un atributo nombre . Agregar un método getter para el atributo nombre (1 punto)
  + Crear las clases Ave , Mamifero e Insecto . Ambas heredan de Animal (1 punto)
  + Crear las clases Pingüino , Paloma y Pato . Las tres heredan de Ave (1 punto)
  + Crear las clases Perro , Gato y Vaca . Las tres heredan de Mamifero (1 punto)
