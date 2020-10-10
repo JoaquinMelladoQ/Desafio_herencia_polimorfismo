@@ -49,3 +49,12 @@ class Parent < Person
     end
 
 end
+
+puts Student.new("Iga", "Swiatek", 19).talk
+puts Student.new("Iga", "Swiatek", 19).introduce
+
+puts Teacher.new("Andre", "Agassi", 50).talk
+puts Teacher.new("Andre", "Agassi", 50).introduce
+
+puts Parent.new("Rafael", "Nadal", 34).talk
+puts Parent.new("Rafael", "Nadal", 34).introduce
