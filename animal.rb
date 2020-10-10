@@ -67,12 +67,21 @@ class Paloma < Ave
 end
 
 class Pato < Ave
+    include Habilidades::Volador
+    include Habilidades::Nadador
+    include Habilidades::Caminante
+    include Alimentacion::Carnivoro
 end
 
 class Perro < Mamifero
+    include Habilidades::Caminante
+    include Habilidades::Nadador
+    include Alimentacion::Carnivoro
 end
 
 class Gato < Mamifero
+    include Habilidades::Caminante
+    include Alimentacion::Carnivoro
 end
 
 class Vaca < Mamifero
