@@ -85,13 +85,21 @@ class Gato < Mamifero
 end
 
 class Vaca < Mamifero
+    include Habilidades::Caminante
+    include Alimentacion::Herbivoro
 end
 
 class Mosca < Insecto
+    include Habilidades::Volador
+    include Alimentacion::Herbivoro, Alimentacion::Carnivoro
 end
 
 class Mariposa < Insecto
+    include Habilidades::Volador
+    include Alimentacion::Herbivoro
 end
 
 class Abeja < Insecto
+    include Habilidades::Volador
+    include Alimentacion::Herbivoro
 end
